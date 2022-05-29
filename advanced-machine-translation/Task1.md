@@ -41,41 +41,43 @@ Epoch 5, Step 10000, Train Loss: 1.7733, Valid Loss: 5.3185
 
 **OpenSubtitles + Colloquial / OpenSubtitles**
 ```
-Epoch 1, Step 1000, Train Loss: 4.8111, Valid Loss: 6.2665
-Epoch 1, Step 2000, Train Loss: 5.1499, Valid Loss: 7.5477
-Epoch 1, Step 3000, Train Loss: 4.4146, Valid Loss: 7.5656
-Epoch 1, Step 4000, Train Loss: 4.2460, Valid Loss: 7.4516
-Epoch 2, Step 5000, Train Loss: 4.5241, Valid Loss: 5.7790
-Epoch 2, Step 6000, Train Loss: 4.5797, Valid Loss: 7.2203
-Epoch 2, Step 7000, Train Loss: 3.7614, Valid Loss: 6.4818
-Epoch 2, Step 8000, Train Loss: 3.8389, Valid Loss: 7.0375
-Epoch 3, Step 9000, Train Loss: 4.2250, Valid Loss: 5.2752
-Epoch 3, Step 10000, Train Loss: 4.0409, Valid Loss: 6.3157
-Epoch 3, Step 11000, Train Loss: 3.2615, Valid Loss: 4.6247
-Epoch 3, Step 12000, Train Loss: 3.2344, Valid Loss: 4.1367
-Epoch 4, Step 13000, Train Loss: 3.6594, Valid Loss: 4.3561
-Epoch 4, Step 14000, Train Loss: 3.3882, Valid Loss: 4.6664
-Epoch 4, Step 15000, Train Loss: 2.7861, Valid Loss: 3.5905
-Epoch 4, Step 16000, Train Loss: 2.7031, Valid Loss: 3.5656
-Epoch 5, Step 17000, Train Loss: 2.9955, Valid Loss: 4.6023
-Epoch 5, Step 18000, Train Loss: 2.7766, Valid Loss: 3.6216
-Epoch 5, Step 19000, Train Loss: 2.3406, Valid Loss: 4.8255
-Epoch 5, Step 20000, Train Loss: 2.3054, Valid Loss: 3.7498
-Epoch 6, Step 21000, Train Loss: 2.4517, Valid Loss: 4.0770
-Epoch 6, Step 22000, Train Loss: 2.2952, Valid Loss: 4.6688
-Epoch 6, Step 23000, Train Loss: 2.0679, Valid Loss: 3.5041
-Epoch 6, Step 24000, Train Loss: 2.0183, Valid Loss: 3.5289
-Epoch 7, Step 25000, Train Loss: 2.1159, Valid Loss: 3.5719
-Epoch 7, Step 26000, Train Loss: 2.0362, Valid Loss: 2.8165
-Epoch 7, Step 27000, Train Loss: 1.9460, Valid Loss: 3.4099
-Epoch 7, Step 28000, Train Loss: 1.8239, Valid Loss: 3.4304
-Epoch 8, Step 29000, Train Loss: 1.8987, Valid Loss: 5.2525
-Epoch 8, Step 30000, Train Loss: 1.8670, Valid Loss: 5.2192
-Epoch 8, Step 31000, Train Loss: 1.8338, Valid Loss: 5.0642
-Epoch 8, Step 32000, Train Loss: 1.6708, Valid Loss: 5.0378
-Epoch 9, Step 33000, Train Loss: 1.7765, Valid Loss: 5.0154
+Epoch 1, Step 500, Train Loss: 4.8573, Valid Loss: 6.2924
+Epoch 1, Step 1000, Train Loss: 5.0419, Valid Loss: 6.5089
+Epoch 1, Step 1500, Train Loss: 5.0407, Valid Loss: 6.1959
+Epoch 1, Step 2000, Train Loss: 5.0775, Valid Loss: 7.5224
+Epoch 1, Step 2500, Train Loss: 4.5981, Valid Loss: 5.0044
+Epoch 1, Step 3000, Train Loss: 4.2849, Valid Loss: 7.4039
+Epoch 1, Step 3500, Train Loss: 4.0061, Valid Loss: 6.7220
+Epoch 1, Step 4000, Train Loss: 4.7452, Valid Loss: 7.1186
+Epoch 2, Step 4500, Train Loss: 4.4674, Valid Loss: 5.9411
+Epoch 2, Step 5000, Train Loss: 4.6072, Valid Loss: 7.0962
+Epoch 2, Step 5500, Train Loss: 4.5358, Valid Loss: 6.8572
+Epoch 2, Step 6000, Train Loss: 4.5857, Valid Loss: 7.1028
+Epoch 2, Step 6500, Train Loss: 3.7269, Valid Loss: 6.9704
+Epoch 2, Step 7000, Train Loss: 3.6618, Valid Loss: 8.0015
+Epoch 2, Step 7500, Train Loss: 3.6292, Valid Loss: 7.6382
+Epoch 2, Step 8000, Train Loss: 3.9817, Valid Loss: 5.7666
 ...
+Epoch 5, Step 16500, Train Loss: 3.1641, Valid Loss: 4.1171
+Epoch 5, Step 17000, Train Loss: 2.9555, Valid Loss: 4.2780
+Epoch 5, Step 17500, Train Loss: 2.8792, Valid Loss: 4.6258
+Epoch 5, Step 18000, Train Loss: 2.7232, Valid Loss: 4.8683
+Epoch 5, Step 18500, Train Loss: 2.3072, Valid Loss: 3.5679
+Epoch 5, Step 19000, Train Loss: 2.3687, Valid Loss: 5.5480
+Epoch 5, Step 19500, Train Loss: 2.1897, Valid Loss: 5.7043
+Epoch 5, Step 20000, Train Loss: 2.3645, Valid Loss: 4.4479
+...
+Epoch 10, Step 36500, Train Loss: 1.6700, Valid Loss: 4.3425
+Epoch 10, Step 37000, Train Loss: 1.6383, Valid Loss: 4.6930
+Epoch 10, Step 37500, Train Loss: 1.6009, Valid Loss: 5.1070
+Epoch 10, Step 38000, Train Loss: 1.5809, Valid Loss: 4.8390
+Epoch 10, Step 38500, Train Loss: 1.5620, Valid Loss: 4.1602
+Epoch 10, Step 39000, Train Loss: 1.5652, Valid Loss: 4.4411
+Epoch 10, Step 39500, Train Loss: 1.4578, Valid Loss: 5.1976
+Epoch 10, Step 40000, Train Loss: 1.4896, Valid Loss: 5.0538
 ```
+
+![image](https://user-images.githubusercontent.com/55765292/170866492-52a2c428-6590-4aaa-ba57-b295921626af.png)
 
 OpenSubtitiles 데이터 외에 추가 적으로 한국어-영어 번역(병렬) 말뭉치 중 구어체의 데이터를 추가적으로 학습시켰습니다. OpenSubtitiles 데이터로만 학습 했을 때 보다 학습 데이터가 추가 됐을때 더 성능 좋아지는 것을 볼 수 있었습니다. 또한 train 데이터의 양이 늘어나면서 learning curve에서 과적합이 생기는 지점도 보다 알아보기 쉬웠습니다.
 
