@@ -10,39 +10,34 @@
 또 다른 테스트 데이터를 선택하여 앞의 step를 수행해보세요.
 새로운 데이터 중 학습 데이터는 1개, 테스트 데이터는 2개를 선택하여 위 step을 진행해주세요. 보고서에는 위 step을 수행한 후 아래 질문에 대한 답을 작성해주세요.
 
+**Train : OpenSubtitles / Valid: OpenSubtitles**
+```
+Epoch 1, Step 500, Train Loss: 3.9331, Valid Loss: 4.8402
+Epoch 1, Step 1000, Train Loss: 4.1794, Valid Loss: 2.8732
+Epoch 1, Step 1500, Train Loss: 3.9762, Valid Loss: 3.0234
+Epoch 1, Step 2000, Train Loss: 4.1264, Valid Loss: 3.8008
+Epoch 2, Step 2500, Train Loss: 3.3562, Valid Loss: 5.7123
+Epoch 2, Step 3000, Train Loss: 3.3801, Valid Loss: 3.4554
+Epoch 2, Step 3500, Train Loss: 3.3361, Valid Loss: 3.3961
+Epoch 2, Step 4000, Train Loss: 3.5773, Valid Loss: 3.8519
+Epoch 3, Step 4500, Train Loss: 2.9231, Valid Loss: 5.3872
+Epoch 3, Step 5000, Train Loss: 2.8246, Valid Loss: 3.9702
+Epoch 3, Step 5500, Train Loss: 2.6682, Valid Loss: 3.9083
+Epoch 3, Step 6000, Train Loss: 2.8806, Valid Loss: 4.8590
+Epoch 4, Step 6500, Train Loss: 2.4562, Valid Loss: 5.0448
+Epoch 4, Step 7000, Train Loss: 2.2182, Valid Loss: 4.0194
+Epoch 4, Step 7500, Train Loss: 2.0738, Valid Loss: 3.9823
+Epoch 4, Step 8000, Train Loss: 2.2840, Valid Loss: 4.3234
+Epoch 5, Step 8500, Train Loss: 2.0030, Valid Loss: 5.0105
+Epoch 5, Step 9000, Train Loss: 1.8449, Valid Loss: 4.3746
+Epoch 5, Step 9500, Train Loss: 1.5643, Valid Loss: 4.5376
+Epoch 5, Step 10000, Train Loss: 1.7733, Valid Loss: 5.3185
+```
+
+![image](https://user-images.githubusercontent.com/55765292/170865821-fe5edb9a-13e7-4efb-9475-624b265247f2.png)
+
+
 ### 새로운 학습 데이터가 추가되었을 때 그 성능은 어떻게 변하는지?
-
-**[Train / Valid]**
-
-**OpenSubtitles / OpenSubtitles**
-```
-Epoch 1, Step 1000, Train Loss: 4.0444, Valid Loss: 2.6510
-Epoch 1, Step 2000, Train Loss: 3.9447, Valid Loss: 3.4692
-Epoch 2, Step 3000, Train Loss: 3.5018, Valid Loss: 3.2066
-Epoch 2, Step 4000, Train Loss: 3.5036, Valid Loss: 4.0961
-Epoch 3, Step 5000, Train Loss: 3.0029, Valid Loss: 3.6207
-Epoch 3, Step 6000, Train Loss: 2.7816, Valid Loss: 4.9249
-Epoch 4, Step 7000, Train Loss: 2.4571, Valid Loss: 4.2472
-Epoch 4, Step 8000, Train Loss: 2.2172, Valid Loss: 4.9423
-Epoch 5, Step 9000, Train Loss: 1.9786, Valid Loss: 4.3708
-Epoch 5, Step 10000, Train Loss: 1.6797, Valid Loss: 5.2923
-...
-```
-
-**Colloquial / Colloquial**
-```
-Epoch 1, Step 1000, Train Loss: 4.8794, Valid Loss: 5.4029
-Epoch 1, Step 2000, Train Loss: 5.0731, Valid Loss: 5.4855
-Epoch 2, Step 3000, Train Loss: 4.4319, Valid Loss: 4.3106
-Epoch 2, Step 4000, Train Loss: 4.4916, Valid Loss: 5.3708
-Epoch 3, Step 5000, Train Loss: 3.9678, Valid Loss: 4.6129
-Epoch 3, Step 6000, Train Loss: 3.9164, Valid Loss: 5.5825
-Epoch 4, Step 7000, Train Loss: 3.3779, Valid Loss: 5.0412
-Epoch 4, Step 8000, Train Loss: 3.1539, Valid Loss: 5.5656
-Epoch 5, Step 9000, Train Loss: 2.7052, Valid Loss: 4.6745
-Epoch 5, Step 10000, Train Loss: 2.4623, Valid Loss: 5.8785
-...
-```
 
 **OpenSubtitles + Colloquial / OpenSubtitles**
 ```
