@@ -39,7 +39,7 @@ Epoch 5, Step 10000, Train Loss: 1.7733, Valid Loss: 5.3185
 
 ### 새로운 학습 데이터가 추가되었을 때 그 성능은 어떻게 변하는지?
 
-**OpenSubtitles + Colloquial / OpenSubtitles**
+**Train : OpenSubtitles + Colloquial / Valid : OpenSubtitles**
 ```
 Epoch 1, Step 500, Train Loss: 4.8573, Valid Loss: 6.2924
 Epoch 1, Step 1000, Train Loss: 5.0419, Valid Loss: 6.5089
@@ -79,7 +79,7 @@ Epoch 10, Step 40000, Train Loss: 1.4896, Valid Loss: 5.0538
 
 ![image](https://user-images.githubusercontent.com/55765292/170866492-52a2c428-6590-4aaa-ba57-b295921626af.png)
 
-OpenSubtitiles 데이터 외에 추가 적으로 한국어-영어 번역(병렬) 말뭉치 중 구어체의 데이터를 추가적으로 학습시켰습니다. OpenSubtitiles 데이터로만 학습 했을 때 보다 학습 데이터가 추가 됐을때 더 성능 좋아지는 것을 볼 수 있었습니다. 또한 train 데이터의 양이 늘어나면서 learning curve에서 과적합이 생기는 지점도 보다 알아보기 쉬웠습니다.
+OpenSubtitiles 데이터 외에 추가 적으로 한국어-영어 번역(병렬) 말뭉치 중 구어체의 데이터를 추가적으로 학습시켰습니다. OpenSubtitiles 데이터로만 학습 했을 때 보다 학습 데이터가 추가 됐을때 더 성능 좋아지는 것을 볼 수 있었습니다. 또한 learning curve 살펴보면 train 데이터의 양이 늘어남으로 과적합에서 벗어나 일반화의 성능이 더 좋아지는 것도 확인할 수 있습니다.
 
 ### 다른 스타일의 테스트 데이터의 경우 그 성능은 어떻게 변하는지?
 
