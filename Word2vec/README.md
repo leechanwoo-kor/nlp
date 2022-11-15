@@ -167,7 +167,7 @@ lr.fit(X_train, y_train)
 print("Accuracy: %f" % lr.score(X_eval, y_eval))
 ## Accuracy: 0.731075
 
-from sklearn.linear_model import RandomForestClassifier
+from sklearn.ensemble import RandomForestClassifier
 
 forest = RandomForestClassifier(n_estimators=100)
 forest.fit(X_train, y_train)
